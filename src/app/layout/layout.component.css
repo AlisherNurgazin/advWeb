@@ -1,0 +1,10 @@
+ul{
+  margin: 50px auto;
+  width: 50%;
+  padding: 10px;
+}
+
+ul.list-group{
+  margin-top: 20px;
+}
+
