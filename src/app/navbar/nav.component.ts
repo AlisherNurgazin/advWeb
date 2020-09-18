@@ -1,12 +1,9 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-header',
+  selector: 'app-nav',
   templateUrl: './nav.component.html',
-  styleUrls: ['./nav.component.css']
 })
-export class HeaderComponent {
-
-  title = 'ToDO';
-
+export class navComponent {
+  title = 'todo';
 }

@@ -1,25 +1,22 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './navbar/nav.component';
-import { SearchboxComponent } from './layout/add/add.component';
-import { ListComponent } from './layout/list/list.component';
-import { LayoutComponent } from './layout/layout.component';
-import {FormsModule} from '@angular/forms';
+import {navComponent} from './navbar/nav.component';
+import {addComponent} from './add/add.component';
+import {listComponent} from './list/list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent,
-    SearchboxComponent,
-    ListComponent,
-    LayoutComponent
+    navComponent,
+    addComponent,
+    listComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    FormsModule
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
